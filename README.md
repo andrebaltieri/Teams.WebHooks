@@ -9,7 +9,7 @@ On the new screen, search for **Incoming WebHooks** and click on **Add**. Copy t
 ## Installing the package
 To install the package, run the following command in the root of your project:
 ```
-dotnet add package Teams.WebHooks
+dotnet add package Teams.WebHooks --version 1.0.0
 ```
 
 ## Creating a message
