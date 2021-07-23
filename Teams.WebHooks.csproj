@@ -2,6 +2,26 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+
+     <PackageId>Teams.WebHooks</PackageId>
+    <Version>1.0.0</Version>
+    <icon>https://raw.githubusercontent.com/andrebaltieri/Teams.WebHooks/main/icon.jpg</icon>
+    <License>MIT</License>
+    <Authors>André Baltieri</Authors>
+    <Company>balta.io</Company>
+    <PackageDescription>Send messages to Microsoft Teams using WebHooks</PackageDescription>
+    <Description>Send messages to Microsoft Teams using WebHooks</Description>
+    <RepositoryUrl>https://github.com/andrebaltieri/Teams.WebHooks</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/andrebaltieri/Teams.WebHooks</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>./icon.jpg</PackageIcon>
+    <PackageTags>teams;microsoft</PackageTags>
+    <Title>Microsoft Teams Messages - WebHooks</Title>
+    <Summary>Send messages to Microsoft Teams using WebHooks</Summary>
   </PropertyGroup>
+
+   <ItemGroup>
+    <None Include="icon.jpg" Pack="true" PackagePath="\"/>
+  </ItemGroup>
 
 </Project>
