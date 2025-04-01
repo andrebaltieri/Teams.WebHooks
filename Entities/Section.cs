@@ -1,5 +1,8 @@
 namespace Teams.WebHooks.Entities;
 
+/// <summary>
+/// Represents a section within a Teams message card.
+/// </summary>
 public class Section
 {
     public string ActivityTitle { get; set; } = string.Empty;

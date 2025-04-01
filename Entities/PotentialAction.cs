@@ -2,6 +2,9 @@ using System.Text.Json.Serialization;
 
 namespace Teams.WebHooks.Entities;
 
+/// <summary>
+/// Represents a potential action for a Teams message card.
+/// </summary>
 public class PotentialAction
 {
     [JsonPropertyName("@type")] 

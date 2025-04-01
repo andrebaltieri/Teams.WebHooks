@@ -2,6 +2,9 @@ using System.Text.Json.Serialization;
 
 namespace Teams.WebHooks.Entities;
 
+/// <summary>
+/// Represents an action item for a potential action in a Teams message card.
+/// </summary>
 public class ActionItem
 {
     [JsonPropertyName("@type")] 

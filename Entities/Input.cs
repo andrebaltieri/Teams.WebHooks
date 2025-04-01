@@ -2,6 +2,9 @@ using System.Text.Json.Serialization;
 
 namespace Teams.WebHooks.Entities;
 
+/// <summary>
+/// Represents an input field for Teams message cards.
+/// </summary>
 public class Input
 {
     [JsonPropertyName("@type")] 

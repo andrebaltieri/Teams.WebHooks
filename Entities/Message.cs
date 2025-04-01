@@ -2,6 +2,9 @@
 
 namespace Teams.WebHooks.Entities;
 
+/// <summary>
+/// Represents a Microsoft Teams message card.
+/// </summary>
 public class Message
 {
     [JsonPropertyName("@type")] 
