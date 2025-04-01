@@ -6,10 +6,10 @@
         <ImplicitUsings>enable</ImplicitUsings>
 
         <PackageId>Teams.WebHooks</PackageId>
-        <Version>1.1.0</Version>
+        <Version>1.2.0</Version>
         <icon>https://raw.githubusercontent.com/andrebaltieri/Teams.WebHooks/main/icon.jpg</icon>
         <License>MIT</License>
-        <Authors>André Baltieri</Authors>
+        <Authors>André Baltieri, Igor Santiago</Authors>
         <Company>balta.io</Company>
         <PackageDescription>Send messages to Microsoft Teams using WebHooks</PackageDescription>
         <Description>Send messages to Microsoft Teams using WebHooks</Description>

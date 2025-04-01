@@ -16,7 +16,7 @@ public static class MessageClient
     /// <param name="card">The message card to send.</param>
     /// <param name="cancellationToken">A token to monitor for cancellation requests.</param>
     /// <returns>True if the message was sent successfully; otherwise, false.</returns>
-    public static async Task<bool> SendAsync(string url, Message card, CancellationToken cancellationToken)
+    public static async Task<bool> SendAsync(string url, Message card, CancellationToken cancellationToken = default)
     {
         var json = JsonSerializer.Serialize(card);
         var client = new HttpClient();
